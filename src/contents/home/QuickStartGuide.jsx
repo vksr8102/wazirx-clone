@@ -8,21 +8,21 @@ const QuickStartGuide = () => {
         <h2 className="text-3xl font-bold mb-6">Your Quick Start Guide</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Step 1 */}
+     
           <div className="flex flex-col items-center">
             <div className="w-12 h-12 bg-[#19364A] text-[#2A95E5] flex items-center justify-center rounded-full text-lg font-bold mb-4">1</div>
             <h3 className="text-xl font-semibold">Sign up on WazirX</h3>
             <p className="text-gray-400 text-sm mt-2">Begin your WazirX journey with a quick signup and smooth KYC verification process.</p>
           </div>
           
-          {/* Step 2 */}
+         
           <div className="flex flex-col items-center">
             <div className="w-12 h-12 bg-[#19364A] text-[#2A95E5] flex items-center justify-center rounded-full text-lg font-bold mb-4">2</div>
             <h3 className="text-xl font-semibold">Transfer INR to Wallet</h3>
             <p className="text-gray-400 text-sm mt-2">Deposit INR to your WazirX Wallet with ease through our secure payment gateways.</p>
           </div>
           
-          {/* Step 3 */}
+       
           <div className="flex flex-col items-center">
             <div className="w-12 h-12 bg-[#19364A] text-[#2A95E5] flex items-center justify-center rounded-full text-lg font-bold mb-4">3</div>
             <h3 className="text-xl font-semibold">Buy and Sell Crypto</h3>
@@ -57,7 +57,7 @@ const QuickStartGuide = () => {
                             </div>
         </div>
 
-        {/* Signup Button */}
+       
       </div>
     </div>
   );

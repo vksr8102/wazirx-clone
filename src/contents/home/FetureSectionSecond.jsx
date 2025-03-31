@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 
 const FeaturesSectionSecond = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -67,7 +66,7 @@ const FeaturesSectionSecond = () => {
           <img
             src={words[currentWordIndex]}
             alt="Mobile App Preview"
-            className="w-8/12 h-screen"
+            className="md:w-8/12 w-full md:h-screen h-[400px]"
             priority
           />
         </div>
