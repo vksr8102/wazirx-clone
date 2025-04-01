@@ -66,7 +66,7 @@ const FeaturesSectionSecond = () => {
           <img
             src={words[currentWordIndex]}
             alt="Mobile App Preview"
-            className="md:w-8/12 w-full md:h-screen h-[400px]"
+            className="md:w-8/12 w-full md:h-screen  "
             priority
           />
         </div>
