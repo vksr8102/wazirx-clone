@@ -46,10 +46,9 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
   │
   ├── styles
   │   ├── globals.css
-  │   ├── home.module.css (or Tailwind setup if preferred)
+  │   
   │
-  ├── public
-  │   ├── assets (Images, icons, etc.)
+  ├── public (Images, icons, etc.)
   │
   ├── app 
   │   ├── layout.jsx
